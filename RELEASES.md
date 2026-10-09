@@ -2,6 +2,16 @@
 
 Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-project-mover-releases/releases) page.
 
+## v3.10.0.1-0.6.0 (2026-10-09)
+
+### Changed
+- **The run's progress bar shows the whole job, with an ETA.** The setup steps (check, sign in, choose) take a short stretch at the start of the bar; the long stretch is the projects themselves, filling as their data is backed up, checksummed, restored or verified — a big project counts for more than a small one. Under the bar: how many projects there are, how many are queued and running, how many completed, completed with warnings or failed — and about how long is left, with the time it should be done.
+- **Projects are listed in a compact table while they run.** One line per project: its number, name, what it is doing right now, its own progress bar, how long it has taken, and its result on the right. The list follows the project that is running. Click a project to see its checks, messages and live log.
+- **Each project's bar runs from start to finish.** It no longer starts again for each stage (backing up, checksumming, comparing the raw data); every stage has its share of the bar by how long it should take, and the bar never goes backwards.
+
+### Improved
+- **The estimates learn from your runs.** Each backup records its real size and how fast this computer backed up, restored and checksummed, so the next run's bars and time left are closer to the truth. The first run uses Empower's size figures and cautious speeds.
+
 ## v3.10.0.1-0.5.5 (2026-10-09)
 
 ### Changed
