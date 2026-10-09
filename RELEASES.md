@@ -2,6 +2,11 @@
 
 Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-project-mover-releases/releases) page.
 
+## v3.10.0.1-0.5.5 (2026-10-09)
+
+### Changed
+- **More room for project names in the Back Up list.** Each project now shows its full name with its backup check mark lined up on the right. Hover over a project to see the date of its last backup — the name shortens to make room while the mouse is over it. The tooltip shows the full project name and the whole backup story, including when a failed project was last backed up successfully.
+
 ## v3.10.0.1-0.5.4 (2026-10-09)
 
 ### Added
