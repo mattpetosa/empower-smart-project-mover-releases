@@ -2,6 +2,25 @@
 
 Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-project-mover-releases/releases) page.
 
+## v3.10.0.1-0.7.0 (2026-10-23)
+
+### Changed
+- **License keys now name their app.** New keys from the license page start with ESPM-, are shorter, and use only capital letters and digits in groups of five; when you enter one, case, spaces, line breaks and dashes don't matter. Keys issued before keep working, and a computer that is already activated needs nothing new.
+- **A refused license key says why:** a character looks mistyped, the key is for another Smart Tools app (the message names it), or the text isn't a license key at all.
+
+### Fixed
+- **A license key pasted from an email where it wraps onto a second line is no longer cut off** at the line break.
+- **"Leave each project locked" now applies only to a good backup.** With *Unlock each project after its backup* unticked, a backup that failed its checks, was stopped by an Empower error or was cancelled used to leave the project read-only too. Such a project is now unlocked again, and the report says why. A move leaves its source locked only once the copy has been restored and verified.
+- **Closing the window during a run stops the run first.** The app asks, stops the run the way Cancel does, unlocks what the run locked, then closes. Closing used to end the app at once, leaving projects locked until the next sign-in.
+- **A second message no longer hides the first.** When a question appeared while another was open (for example the Cancel confirmation and a question from a running backup), the first one disappeared and the run could stop waiting for an answer that could no longer be given.
+- **Activation works behind a proxy that blocks the license site.** A proxy's "blocked" or "sign in to the proxy" page was taken as the license server refusing the key, so the key couldn't be activated at all. The app now activates offline in that case, as it does when there is no network.
+- **The license works on computers set to a non-Gregorian calendar** (for example Persian or Thai). The key's issue date was read in the computer's calendar, which could report "System clock error" for a valid key.
+- **Backup run folders are always dated in the Gregorian calendar,** so Clean Up reads their age correctly on every computer.
+- **Updates no longer get stuck downloading.** A download that stops part-way now ends after a minute instead of waiting forever (which left the update button greyed out).
+- **Self-update works from folders with brackets or typographic apostrophes in their names** (for example `Tools [v2]` or `Matt’s Tools`). In such folders the app could fail to restart after an update, or fail to open at all.
+- **A license no longer works on a copied (cloned) computer.** Project Mover now uses the same license checks as the other Smart Tools. A computer made as a copy of an activated one (a cloned virtual machine or disk image) has to be activated online once before it can be used. Existing activations keep working. Replacing a computer's motherboard, or moving a virtual machine to another host, also counts as a new computer: activate it online once.
+- **A project is never locked when the app can't record the lock.** If the app's list of locks can't be read or written, the project is backed up without a lock (and flagged in the report) rather than locked without a record; the list is never overwritten by an empty one.
+
 ## v3.10.0.1-0.6.1 (2026-10-14)
 
 ### Changed
