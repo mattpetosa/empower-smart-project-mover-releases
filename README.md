@@ -1,8 +1,8 @@
-<p align="center"><img src="assets/app-logo-256.png" width="112" alt="Empower Smart Project Mover"></p>
+<p align="center"><img src="assets/app-logo-256.png" width="112" alt="Empower Smart Project Migration"></p>
 
-# Empower Smart Project Mover — Downloads
+# Empower Smart Project Migration — Downloads
 
-This repository hosts **downloads and issue tracking** for Empower Smart Project Mover, part of
+This repository hosts **downloads and issue tracking** for Empower Smart Project Migration, part of
 the Empower Smart Tools family alongside
 [Empower Smart Deploy](https://github.com/mattpetosa/empower-smart-deploy-releases),
 [Empower Smart Recovery](https://github.com/mattpetosa/empower-smart-recovery-releases) and
@@ -10,7 +10,7 @@ the Empower Smart Tools family alongside
 a Windows app that backs up, restores and moves Waters **Empower 3** projects, checking every
 step as it goes.
 
-**[⬇ Download the latest release](https://github.com/mattpetosa/empower-smart-project-mover-releases/releases)** — or get it from
+**[⬇ Download the latest release](https://github.com/mattpetosa/empower-smart-project-migration-releases/releases)** — or get it from
 [empower.mhpwebserver.com](https://empower.mhpwebserver.com/downloads/espm) (the app updates itself).
 
 ## What it does
@@ -38,4 +38,4 @@ Every run writes an HTML and CSV report of each project's checks.
 
 ## Issues
 
-Found a problem? [Open an issue](https://github.com/mattpetosa/empower-smart-project-mover-releases/issues).
+Found a problem? [Open an issue](https://github.com/mattpetosa/empower-smart-project-migration-releases/issues).
