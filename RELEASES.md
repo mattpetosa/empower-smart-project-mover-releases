@@ -1,6 +1,11 @@
 # Release history
 
-Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-project-mover-releases/releases) page.
+Newest first. Downloads are on the [Releases](https://github.com/mattpetosa/empower-smart-project-migration-releases/releases) page.
+
+## v3.10.0.1-0.8.0 (2026-10-30)
+
+### Changed
+- **Empower Smart Project Mover is now Empower Smart Project Migration.** Same app and same backups; license keys still start with ESPM-. The first time the renamed app opens, it moves its reports, logs and settings — including any projects it still has locked — from the old "Empower Smart Project Mover" folders into folders with the new name. Request a new Project Migration license key and activate once; keys made for Project Mover no longer activate. A copy that updates itself picks up the new name automatically.
 
 ## v3.10.0.1-0.7.0 (2026-10-23)
 
